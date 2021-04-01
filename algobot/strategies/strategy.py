@@ -7,7 +7,6 @@ from typing import List, Union
 
 from algobot.data import Data
 
-
 class Strategy:
     def __init__(self, name: str, parent, precision: int = 2):
         """
